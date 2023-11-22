@@ -45,6 +45,7 @@ void ofApp::setup(){
 	ofLoadImage(mTexDepth, "depth_image.png");
 	ofEnableArbTex();
 
+
 	mCamMain.setupPerspective(false,60,0,10000);
 	
 }

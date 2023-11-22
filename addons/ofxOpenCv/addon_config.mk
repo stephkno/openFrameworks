@@ -67,7 +67,7 @@ linux64:
 	ADDON_INCLUDES_EXCLUDE += libs/opencv/%
 
 linux:
-    ADDON_PKG_CONFIG_LIBRARIES = opencv harfbuzz
+    ADDON_PKG_CONFIG_LIBRARIES = opencv4 harfbuzz
 	ADDON_LIBS_EXCLUDE = libs/opencv/%
 	ADDON_INCLUDES_EXCLUDE = libs/opencv
 	ADDON_INCLUDES_EXCLUDE += libs/opencv/%
